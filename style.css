@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(139deg, #ccffd8, #efffe7);
+}
+
+.card {
+    background: linear-gradient(135deg, #f6f6f6, #ffffff);
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgb(98, 134, 119);
+    width: 350px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s; 
+}
+
+.card-header img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    transition: all 0.4s; 
+}
+
+.card-header img:hover {
+    transform: scale(1.1);
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+    margin-top: -16px; 
+}
+
+.card-body h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.card-body p {
+    margin: 5px 0;
+}
+.media-buttons {
+    text-align: center;
+    padding: 11px 0;
+}
+
+.link {
+    color: #3a3a3a;
+    margin: 0 6px;
+    text-decoration: none;
+}
+
+.link i {
+    font-size: 26px;
+}
+
+/* Optional: Add hover effect to social media icons */
+.link:hover {
+    color: #25ed68;
+}
+
+
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #b9b9b9;
+    transition: background-color 0.3s ease;
+}
+
+
+th {
+    background-color: #1ba749;
+    color: #fdfcfc;
+}
+
+
+th:hover {
+    background-color: #128c3d;
+}
+
+
+
+
+tr:hover {
+    background-color: #dfdfdf;
+}
+
+
+a {
+    color: #1ba749;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #128c3d;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 7px; 
+    overflow: hidden; 
+    
+}
